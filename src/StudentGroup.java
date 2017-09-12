@@ -49,10 +49,9 @@ public class StudentGroup implements StudentArrayOperation {
 				students=students.next;
 		}
 		}
-		}
-		else
-			throws IllegalArgumentException;
-	
+		
+		
+	}
 
 	@Override
 	public Student getStudent(int index) {
@@ -82,8 +81,7 @@ public class StudentGroup implements StudentArrayOperation {
 				students=students.next;
 		}
 		}
-		else
-			throws IllegalArgumentException;
+		
 	}
 
 	@Override
@@ -124,8 +122,7 @@ public class StudentGroup implements StudentArrayOperation {
 			else
 				students=students.next;
 		}
-		else
-			throws IllegalArgumentException;
+		
 	}
 
 	@Override
@@ -307,11 +304,11 @@ public class StudentGroup implements StudentArrayOperation {
 		// Add your implementation here
 		for(i=0;i<length;i++)
 		{
-			aver[i]=avg(student.marks[]);
+			aver[i]=avg(student.marks);
 		}
 		for(i=0;i<length;i++)
 		{	
-			System.out.println(max(aver[i]);
+			System.out.println(max(aver[i]));
 		}
 		return null;
 	}
@@ -324,4 +321,5 @@ public class StudentGroup implements StudentArrayOperation {
 			System.out.println(student.next);
 		return null;
 	}
+}
 }
